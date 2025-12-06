@@ -69,10 +69,10 @@ class MainActivity : AppCompatActivity() {
         })
 
         val btn9_main = findViewById<Button>(R.id.btn9_main)
-        btn9_main.setOnClickListener(View.OnClickListener{ view->
-            //Deyfran
-            util.openActivity(this, MainActivity::class.java)
-        })
+        btn9_main.setOnClickListener { view ->
+            //Deyfran - Ahora sí abre tu pantalla correcta
+            util.openActivity(this, activity_deyf_authentication::class.java)
+        }
 
         val btn10_main = findViewById<Button>(R.id.btn10_main)
         btn10_main.setOnClickListener(View.OnClickListener{ view->
