@@ -21,141 +21,141 @@ class MainActivity : AppCompatActivity() {
         }
 
         val btn1_main = findViewById<Button>(R.id.btn1_main)
-        btn1_main.setOnClickListener(View.OnClickListener{ view->
+        btn1_main.setOnClickListener {
             //Marco
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn2_main = findViewById<Button>(R.id.btn2_main)
-        btn2_main.setOnClickListener(View.OnClickListener{ view->
+        btn2_main.setOnClickListener {
             //Yadrick
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn3_main = findViewById<Button>(R.id.btn3_main)
-        btn3_main.setOnClickListener(View.OnClickListener{ view->
+        btn3_main.setOnClickListener {
             //Alfredo
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn4_main = findViewById<Button>(R.id.btn4_main)
-        btn4_main.setOnClickListener(View.OnClickListener{ view->
+        btn4_main.setOnClickListener {
             //Brandon
-            util.openActivity(this, MainActivity::class.java)
-        })
+            util.openActivity(this, BranLoginActivity::class.java)
+        }
 
         val btn5_main = findViewById<Button>(R.id.btn5_main)
-        btn5_main.setOnClickListener(View.OnClickListener{ view->
+        btn5_main.setOnClickListener {
             //Nidia
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn6_main = findViewById<Button>(R.id.btn6_main)
-        btn6_main.setOnClickListener(View.OnClickListener{ view->
+        btn6_main.setOnClickListener {
             //KevinV
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn7_main = findViewById<Button>(R.id.btn7_main)
-        btn7_main.setOnClickListener(View.OnClickListener{ view->
+        btn7_main.setOnClickListener {
             //Luis
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn8_main = findViewById<Button>(R.id.btn8_main)
-        btn8_main.setOnClickListener(View.OnClickListener{ view->
+        btn8_main.setOnClickListener {
             //Reychell
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn9_main = findViewById<Button>(R.id.btn9_main)
-        btn9_main.setOnClickListener(View.OnClickListener{ view->
+        btn9_main.setOnClickListener {
             //Deyfran
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn10_main = findViewById<Button>(R.id.btn10_main)
-        btn10_main.setOnClickListener(View.OnClickListener{ view->
+        btn10_main.setOnClickListener {
             //Johel
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn11_main = findViewById<Button>(R.id.btn11_main)
-        btn11_main.setOnClickListener(View.OnClickListener{ view->
+        btn11_main.setOnClickListener {
             //Douglas
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn12_main = findViewById<Button>(R.id.btn12_main)
-        btn12_main.setOnClickListener(View.OnClickListener{ view->
+        btn12_main.setOnClickListener {
             //Dylan
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn13_main = findViewById<Button>(R.id.btn13_main)
-        btn13_main.setOnClickListener(View.OnClickListener{ view->
+        btn13_main.setOnClickListener {
             //Caleb
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn14_main = findViewById<Button>(R.id.btn14_main)
-        btn14_main.setOnClickListener(View.OnClickListener{ view->
+        btn14_main.setOnClickListener {
             //Sofia
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn15_main = findViewById<Button>(R.id.btn15_main)
-        btn15_main.setOnClickListener(View.OnClickListener{ view->
+        btn15_main.setOnClickListener {
             //Samiel
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn16_main = findViewById<Button>(R.id.btn16_main)
-        btn16_main.setOnClickListener(View.OnClickListener{ view->
+        btn16_main.setOnClickListener {
             //Laura
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn17_main = findViewById<Button>(R.id.btn17_main)
-        btn17_main.setOnClickListener(View.OnClickListener{ view->
+        btn17_main.setOnClickListener {
             //Ansley
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn18_main = findViewById<Button>(R.id.btn18_main)
-        btn18_main.setOnClickListener(View.OnClickListener{ view->
+        btn18_main.setOnClickListener {
             //Pablo
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn19_main = findViewById<Button>(R.id.btn19_main)
-        btn19_main.setOnClickListener(View.OnClickListener{ view->
+        btn19_main.setOnClickListener {
             //Braylin
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn20_main = findViewById<Button>(R.id.btn20_main)
-        btn20_main.setOnClickListener(View.OnClickListener{ view->
+        btn20_main.setOnClickListener {
             //Paula
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn21_main = findViewById<Button>(R.id.btn21_main)
-        btn21_main.setOnClickListener(View.OnClickListener{ view->
+        btn21_main.setOnClickListener {
             //Ricardo
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn22_main = findViewById<Button>(R.id.btn22_main)
-        btn22_main.setOnClickListener(View.OnClickListener{ view->
+        btn22_main.setOnClickListener {
             //Maria Jose
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
 
         val btn23_main = findViewById<Button>(R.id.btn23_main)
-        btn23_main.setOnClickListener(View.OnClickListener{ view->
+        btn23_main.setOnClickListener {
             //Kamila
             util.openActivity(this, MainActivity::class.java)
-        })
+        }
     }
 }
