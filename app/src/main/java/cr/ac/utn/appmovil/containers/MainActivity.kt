@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import util.util
 
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -77,7 +78,7 @@ class MainActivity : AppCompatActivity() {
         val btn10_main = findViewById<Button>(R.id.btn10_main)
         btn10_main.setOnClickListener(View.OnClickListener{ view->
             //Johel
-            util.openActivity(this, MainActivity::class.java)
+            util.openActivity(this,  JohelAuthenticationActivity::class.java)
         })
 
         val btn11_main = findViewById<Button>(R.id.btn11_main)
