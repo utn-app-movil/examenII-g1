@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         val btn1_main = findViewById<Button>(R.id.btn1_main)
         btn1_main.setOnClickListener(View.OnClickListener{ view->
             //Marco
-            util.openActivity(this, MainActivity::class.java)
+            util.openActivity(this, marco_authenticationActivity::class.java)
         })
 
         val btn2_main = findViewById<Button>(R.id.btn2_main)

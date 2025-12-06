@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LOGIN -->
+    <string name="marco_login">Login</string>
+    <string name="marco_username">Username</string>
+    <string name="marco_password">Password</string>
+    <string name="marco_btn_login">Login</string>
+
+    <string name="marco_error_empty_fields">Username and password are required</string>
+    <string name="marco_error_not_in_list">
+        The user/password does not match with the right credentials or username is inactive.
+    </string>
+    <string name="marco_error_technicians">Error getting technicians list</string>
+    <string name="marco_error_login">Error authenticating user</string>
+
+    <!-- CREAR CONTENEDOR -->
+    <string name="marco_title_create_container">Create Container</string>
+    <string name="marco_hint_container_id">Container ID</string>
+    <string name="marco_hint_product">Product</string>
+    <string name="marco_btn_create_container">Create</string>
+
+    <!-- LISTA DE CONTENEDORES -->
+    <string name="marco_title_containers">Containers</string>
+    <string name="marco_btn_go_create">New Container</string>
+    <string name="marco_btn_refresh">Refresh</string>
+</resources>
