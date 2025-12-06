@@ -20,6 +20,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".sof_Log"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".sof_ListContainer"
+            android:exported="false"
+            android:parentActivityName=".sof_Log"/>
+
+        <activity
+            android:name=".sof_Container"
+            android:exported="false"
+            android:parentActivityName=".sof_ListContainer"/>
     </application>
 
 </manifest>

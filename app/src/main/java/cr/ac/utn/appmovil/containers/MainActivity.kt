@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
         val btn14_main = findViewById<Button>(R.id.btn14_main)
         btn14_main.setOnClickListener(View.OnClickListener{ view->
             //Sofia
-            util.openActivity(this, MainActivity::class.java)
+            util.openActivity(this, sof_Log::class.java)
         })
 
         val btn15_main = findViewById<Button>(R.id.btn15_main)
