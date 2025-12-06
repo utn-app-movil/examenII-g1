@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="nid_app_name">Container Manager</string>
+
+        <string name="nid_login_title">User Login</string>
+        <string name="nid_username_hint">Username (TEC-01)</string>
+        <string name="nid_password_hint">Password</string>
+        <string name="nid_btn_login">Login</string>
+
+        <string name="nid_room_title">Create Container</string>
+        <string name="nid_container_id_hint">Container ID</string>
+        <string name="nid_container_product_hint">Product</string>
+        <string name="nid_btn_create_container">Create Container</string>
+
+        <string name="nid_room_list_title">Containers</string>
+        <string name="nid_btn_refresh">Refresh</string>
+        <string name="nid_btn_assign">Assign</string>
+        <string name="nid_btn_release">Release</string>
+
+</resources>
