@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:layout_margin="8dp"
+    android:elevation="2dp">
+
+    <!-- Container ID -->
+    <TextView
+        android:id="@+id/lau_container_id_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Container ID: "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Product -->
+    <TextView
+        android:id="@+id/lau_product_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Product: "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/lau_btn_assign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assign" />
+
+        <Button
+            android:id="@+id/lau_btn_release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Release"
+            android:layout_marginStart="12dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

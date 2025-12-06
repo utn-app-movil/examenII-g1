@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/lau_title_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Container"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="24dp" />
+
+    <EditText
+        android:id="@+id/lau_container_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Container ID (ex: CR5T6A3B85Q5JK7)"
+        android:padding="12dp"
+        android:inputType="text"
+        android:background="@android:drawable/edit_text" />
+
+    <EditText
+        android:id="@+id/lau_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product (ex: Metal)"
+        android:padding="12dp"
+        android:inputType="text"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/lau_btn_save_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Container"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
