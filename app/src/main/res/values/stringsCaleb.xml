@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Containers</string>
+    <string name="postRestApi">Post Containers</string>
+    <string name="logingUsername">Nombre de Usuario</string>
+    <string name="logingPassword">Contraseña</string>
+    <string name="btnloginLog">Ingresar</string>
+
+    <string name="caleb_user_loaded">Datos de usuario cargados</string>
+    <string name="caleb_create_container">Crear contenedor</string>
+    <string name="caleb_no_session">No hay datos de sesión</string>
+    <string name="caleb_welcome_format">Bienvenido %1$s %2$s (%3$s)</string>
+</resources>

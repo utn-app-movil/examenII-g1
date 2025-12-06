@@ -1,5 +1,7 @@
 package cr.ac.utn.appmovil.containers
 
+import Caleb.UI.CreateContainerActivity
+import Caleb.UI.LoginActivityCaleb
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -95,7 +97,7 @@ class MainActivity : AppCompatActivity() {
         val btn13_main = findViewById<Button>(R.id.btn13_main)
         btn13_main.setOnClickListener(View.OnClickListener{ view->
             //Caleb
-            util.openActivity(this, MainActivity::class.java)
+            util.openActivity(this, LoginActivityCaleb::class.java)
         })
 
         val btn14_main = findViewById<Button>(R.id.btn14_main)

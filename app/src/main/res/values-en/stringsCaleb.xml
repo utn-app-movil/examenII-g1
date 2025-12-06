@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Containers</string>
+    <string name="postRestApi">Post Containers</string>
+    <string name="logingUsername">Username</string>
+    <string name="logingPassword">Password</string>
+    <string name="btnloginLog">Log In</string>
+    <string name="caleb_user_loaded">User Loaded</string>
+    <string name="caleb_create_container">Create Container</string>
+    <string name="caleb_no_session">There is no session data</string>
+    <string name="caleb_welcome_format">Welcome %1$s %2$s (%3$s)</string>
+    <string name="btn_watch_containers">Watch all containers</string>
+</resources>
