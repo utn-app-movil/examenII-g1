@@ -1,0 +1,24 @@
+<resources>
+    <!-- General -->
+    <string name="johel_app_title">Containers maintenance</string>
+
+    <!-- Login -->
+    <string name="johel_auth_title">Technician login</string>
+    <string name="johel_auth_email_hint">Email</string>
+    <string name="johel_auth_password_hint">Password</string>
+    <string name="johel_auth_button_login">Sign in</string>
+    <string name="johel_auth_error_empty">Email and password are required.</string>
+
+    <!-- Room (create container) -->
+    <string name="johel_room_title">Create container</string>
+    <string name="johel_room_code_hint">Container code</string>
+    <string name="johel_room_description_hint">Description</string>
+    <string name="johel_room_button_save">Save container</string>
+
+    <!-- Room list -->
+    <string name="johel_room_list_title">Containers</string>
+    <string name="johel_room_list_refresh">Refresh</string>
+    <string name="johel_room_list_assign">Assign</string>
+    <string name="johel_room_list_release">Release</string>
+    <string name="johel_room_list_no_items">No containers found.</string>
+</resources>

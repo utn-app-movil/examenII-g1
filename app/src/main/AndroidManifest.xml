@@ -12,7 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Restapi">
         <activity
-            android:name="cr.ac.utn.appmovil.containers.MainActivity"
+            android:name=".JohelRoomListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JohelRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JohelAuthenticationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
