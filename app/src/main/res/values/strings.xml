@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Containers</string>
+    <string name="postRestApi">Post Containers</string>
+</resources>
