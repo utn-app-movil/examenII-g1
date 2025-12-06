@@ -14,12 +14,17 @@
         <activity
             android:name="cr.ac.utn.appmovil.containers.MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".kevinv.kevinv_authenticationActivity" />
+        <activity android:name=".kevinv.kevinv_mainActivity" />
+        <activity android:name=".kevinv.kevinv_roomActivity" />
+        <activity android:name=".kevinv.kevinv_roomListActivity" />
     </application>
 
 </manifest>
