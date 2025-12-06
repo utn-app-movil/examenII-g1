@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- login -->
+    <string name="luis_login_title">Log in</string>
+    <string name="luis_username">Username</string>
+    <string name="luis_password">Password</string>
+    <string name="luis_login_button">Log in</string>
+    <string name="luis_error_empty_fields">All fields are required</string>
+    <string name="luis_login_success">Login successful</string>
+    <string name="luis_error_login_generic">Login error</string>
+    <string name="luis_error_user_null">User not found</string>
+
+    <!-- main options -->
+    <string name="luis_create_container_button">Create container</string>
+    <string name="luis_list_containers_button">List containers</string>
+
+    <!-- create container xml -->
+    <string name="luis_create_container_title">Create container</string>
+    <string name="luis_container_id">Container ID</string>
+    <string name="luis_container_product">Product</string>
+    <string name="luis_error_container_empty_fields">All fields are required</string>
+    <string name="luis_container_created_success">Container created successfully</string>
+    <string name="luis_error_create_container">Error creating container</string>
+
+    <!-- controllers -->
+    <string name="error_login_invalid">Invalid credentials</string>
+    <string name="error_user_data_null">User data is null</string>
+    <string name="error_login_general">Login error</string>
+    <string name="error_create_container">Error creating container</string>
+    <string name="error_get_containers">Error retrieving containers</string>
+    <string name="error_container_data_null">Container data is null</string>
+    <string name="error_containers_data_null">Containers data is null</string>
+
+    <!-- activities -->
+    <string name="error_username_required">Please enter the username</string>
+    <string name="error_password_required">Please enter the password</string>
+    <string name="welcome_user">Welcome %1$s</string>
+    <string name="error_login_generic_toast">Error: %1$s</string>
+    <string name="error_container_id_required">Please enter the container ID</string>
+    <string name="error_product_required">Please enter the product</string>
+    <string name="message_creating_container">Creating...</string>
+    <string name="message_container_created">Container successfully created</string>
+    <string name="error_create_container_toast">Error: %1$s</string>
+    <string name="error_create_container_fallback">Could not create the container</string>
+    <string name="log_container_id_empty">Empty container ID</string>
+    <string name="log_product_empty">Empty product</string>
+    <string name="message_loading_containers">Loading containers...</string>
+    <string name="message_containers_loaded">Loaded %1$d containers</string>
+    <string name="error_load_containers_toast">Error: %1$s</string>
+    <string name="error_load_containers_fallback">Could not load containers</string>
+    <string name="log_error_loading_containers">Error loading containers: %1$s</string>
+    <string name="container_selected">Selected container: %1$s</string>
+
+
+</resources>

@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         val btn7_main = findViewById<Button>(R.id.btn7_main)
         btn7_main.setOnClickListener(View.OnClickListener{ view->
             //Luis
-            util.openActivity(this, MainActivity::class.java)
+            util.openActivity(this, luis_authenticationActivity::class.java)
         })
 
         val btn8_main = findViewById<Button>(R.id.btn8_main)
