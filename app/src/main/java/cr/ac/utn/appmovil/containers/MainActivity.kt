@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
         val btn12_main = findViewById<Button>(R.id.btn12_main)
         btn12_main.setOnClickListener(View.OnClickListener{ view->
             //Dylan
-            util.openActivity(this, MainActivity::class.java)
+            util.openActivity(this, dyl_LoginActivity::class.java)
         })
 
         val btn13_main = findViewById<Button>(R.id.btn13_main)

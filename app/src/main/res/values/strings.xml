@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Containers</string>
     <string name="postRestApi">Post Containers</string>
+    <string name="dyl_username">Enter Username</string>
+    <string name="dyl_password">Enter Password</string>
+    <string name="dyl_login">Login</string>
+    <string name="dyl_ErrorMsgAdd">Ups Error</string>
+    <string name="dyl_cnttxt">View all containers</string>
 </resources>
