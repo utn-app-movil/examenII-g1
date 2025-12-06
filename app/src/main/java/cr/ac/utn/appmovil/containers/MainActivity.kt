@@ -28,8 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         val btn2_main = findViewById<Button>(R.id.btn2_main)
         btn2_main.setOnClickListener(View.OnClickListener{ view->
-            //Yadrick
-            util.openActivity(this, MainActivity::class.java)
+            util.openActivity(this, yadAuthenticationActivity::class.java)
         })
 
         val btn3_main = findViewById<Button>(R.id.btn3_main)

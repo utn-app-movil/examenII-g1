@@ -61,4 +61,10 @@ dependencies {
 
     // Material Components para diseño moderno
     implementation("com.google.android.material:material:1.13.0")
+    // Android Lifecycle Extensions (Necesario para 'viewModelScope' y 'AndroidViewModel')
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
+// Implementar la dependencia de AndroidViewModel
+    implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
 }
