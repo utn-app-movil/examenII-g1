@@ -1,0 +1,7 @@
+<resources>
+    <string name="deyf_hint_email">Email del técnico</string>
+    <string name="deyf_hint_password">Contraseña</string>
+    <string name="deyf_login">Iniciar Sesión</string>
+    <string name="deyf_error_login">Error de autenticación</string>
+    <string name="deyf_empty_fields">Complete todos los campos</string>
+</resources>
