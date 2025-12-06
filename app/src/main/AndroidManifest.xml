@@ -20,6 +20,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".DougAuthenticationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DougCreateContainerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DougContainerListActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

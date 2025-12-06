@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doug_login_title">Container Login</string>
+    <string name="doug_username_hint">Username</string>
+    <string name="doug_password_hint">Password</string>
+    <string name="doug_login_button">Login</string>
+    <string name="doug_login_success">Login successful!</string>
+    <string name="doug_login_failed">Login failed</string>
+    <string name="doug_error_empty_username">Username cannot be empty</string>
+    <string name="doug_error_empty_password">Password cannot be empty</string>
+
+    <string name="doug_create_title">Create Container</string>
+    <string name="doug_number_hint">Container Number</string>
+    <string name="doug_size_label">Container Size</string>
+    <string name="doug_type_label">Container Type</string>
+    <string name="doug_create_button">Create Container</string>
+    <string name="doug_container_created">Container created successfully!</string>
+    <string name="doug_create_failed">Failed to create container</string>
+    <string name="doug_error_empty_number">Container number cannot be empty</string>
+
+    <string name="doug_list_title">Containers</string>
+    <string name="doug_refresh_button">Refresh</string>
+    <string name="doug_container_assigned">Container assigned successfully!</string>
+    <string name="doug_container_released">Container released successfully!</string>
+    <string name="doug_assign_failed">Failed to assign container</string>
+    <string name="doug_release_failed">Failed to release container</string>
+    <string name="doug_load_failed">Failed to load containers</string>
+
+// Por si hay errores xD
+    <string name="doug_error_network">Network error. Please try again.</string>
+    <string name="doug_error_exception">Error</string>
+</resources>
