@@ -143,7 +143,7 @@ class MainActivity : AppCompatActivity() {
         val btn21_main = findViewById<Button>(R.id.btn21_main)
         btn21_main.setOnClickListener(View.OnClickListener{ view->
             //Ricardo
-            util.openActivity(this, MainActivity::class.java)
+            util.openActivity(this, ricar_authentication::class.java)
         })
 
         val btn22_main = findViewById<Button>(R.id.btn22_main)
