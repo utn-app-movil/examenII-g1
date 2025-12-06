@@ -1,0 +1,27 @@
+<resources>
+    <!-- App base -->
+    <string name="app_name">Containers</string>
+    <string name="postRestApi">Post Containers</string>
+
+    <!-- Login -->
+    <string name="logingUsername">Nombre de Usuario</string>
+    <string name="logingPassword">Contraseña</string>
+    <string name="btnloginLog">Ingresar</string>
+
+    <!-- Menu Caleb -->
+    <string name="caleb_user_loaded">Datos de usuario cargados</string>
+    <string name="caleb_create_container">Crear contenedor</string>
+    <string name="caleb_no_session">No hay datos de sesión</string>
+    <string name="caleb_welcome_format">Bienvenido %1$s %2$s (%3$s)</string>
+
+    <!-- Create Container -->
+    <string name="caleb_container_id_label">ID del contenedor</string>
+    <string name="caleb_container_product_label">Producto</string>
+    <string name="caleb_container_create_btn">Crear</string>
+
+    <!-- Containers list -->
+    <string name="caleb_assign">Asignar</string>
+    <string name="caleb_release">Liberar</string>
+    <string name="caleb_header_containers">Containers</string>
+    <string name="caleb_refresh">Refrescar</string>
+</resources>
