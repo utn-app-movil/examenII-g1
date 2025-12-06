@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ID del contenedor" />
+            android:text="@string/caleb_container_id_label" />
 
         <EditText
             android:id="@+id/etContainerId"
@@ -30,7 +30,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Producto" />
+            android:text="@string/caleb_container_product_label" />
 
         <EditText
             android:id="@+id/etContainerProduct"
@@ -42,7 +42,7 @@
             android:id="@+id/btnCreateContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Crear" />
+            android:text="@string/caleb_container_create_btn" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

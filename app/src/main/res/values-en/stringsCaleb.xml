@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App base -->
     <string name="app_name">Containers</string>
     <string name="postRestApi">Post Containers</string>
+
+    <!-- Login -->
     <string name="logingUsername">Username</string>
     <string name="logingPassword">Password</string>
-    <string name="btnloginLog">Log In</string>
-    <string name="caleb_user_loaded">User Loaded</string>
-    <string name="caleb_create_container">Create Container</string>
-    <string name="caleb_no_session">There is no session data</string>
+    <string name="btnloginLog">Sign in</string>
+
+    <!-- Menu Caleb -->
+    <string name="caleb_user_loaded">User data loaded</string>
+    <string name="caleb_create_container">Create container</string>
+    <string name="caleb_no_session">No session data</string>
     <string name="caleb_welcome_format">Welcome %1$s %2$s (%3$s)</string>
-    <string name="btn_watch_containers">Watch all containers</string>
+
+    <!-- Create Container -->
+    <string name="caleb_container_id_label">Container ID</string>
+    <string name="caleb_container_product_label">Product</string>
+    <string name="caleb_container_create_btn">Create</string>
+
+    <!-- Containers list -->
+    <string name="caleb_assign">Assign</string>
+    <string name="caleb_release">Release</string>
+    <string name="caleb_header_containers">Containers</string>
+    <string name="caleb_refresh">Refresh</string>
 </resources>

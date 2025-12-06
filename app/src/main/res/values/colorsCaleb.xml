@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta específica para pantallas Caleb -->
+    <color name="caleb_primary">#6200EE</color>
+    <color name="caleb_primary_dark">#3700B3</color>
+    <color name="caleb_accent">#03DAC5</color>
+
+    <!-- Estados de acciones -->
+    <color name="caleb_assign_pink">#D81B60</color>
+    <color name="caleb_release_green">#2E7D32</color>
+    <color name="caleb_warning_orange">#F57C00</color>
+    <color name="caleb_info_blue">#1976D2</color>
+
+    <!-- Fondos y textos -->
+    <color name="caleb_item_bg">#FFFFFFFF</color>
+    <color name="caleb_item_divider">#BDBDBD</color>
+    <color name="caleb_text_primary">#212121</color>
+    <color name="caleb_text_secondary">#757575</color>
+</resources>

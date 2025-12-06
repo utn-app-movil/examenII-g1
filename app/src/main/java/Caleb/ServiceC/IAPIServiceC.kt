@@ -5,10 +5,13 @@ import Caleb.modelC.AuthResponse
 import Caleb.modelC.ContainerCreateRequest
 import Caleb.modelC.ContainerCreateResponse
 import Caleb.modelC.ContainersListResponse
+import Caleb.modelC.ContainerAssignRequest
+import Caleb.modelC.ContainerReleaseRequest
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
+import retrofit2.http.PUT
 
 interface IAPIServiceC {
     @POST("/users/auth")
@@ -19,4 +22,10 @@ interface IAPIServiceC {
 
     @GET("/containers")
     suspend fun getContainers(): Response<ContainersListResponse>
+
+    @PUT("/containers/asign")
+    suspend fun assignContainer(@Body body: ContainerAssignRequest): Response<ContainerCreateResponse>
+
+    @PUT("/containers/release")
+    suspend fun releaseContainer(@Body body: ContainerReleaseRequest): Response<ContainerCreateResponse>
 }
