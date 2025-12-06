@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import cr.ac.utn.appmovil.containers.mjose_activities.mjose_authenticationActivity
 import util.util
 
 class MainActivity : AppCompatActivity() {
@@ -149,7 +150,7 @@ class MainActivity : AppCompatActivity() {
         val btn22_main = findViewById<Button>(R.id.btn22_main)
         btn22_main.setOnClickListener(View.OnClickListener{ view->
             //Maria Jose
-            util.openActivity(this, MainActivity::class.java)
+            util.openActivity(this, mjose_authenticationActivity::class.java)
         })
 
         val btn23_main = findViewById<Button>(R.id.btn23_main)
