@@ -33,42 +33,33 @@ class activity_list_container : AppCompatActivity(),
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_container)
 
-        // Referencias a la vista
         txtLoggedUser = findViewById(R.id.txtLoggedUser)
         btnGoToCreate = findViewById(R.id.btnGoToCreate)
         btnRefresh = findViewById(R.id.btnRefresh)
         progressContainers = findViewById(R.id.progressContainers)
         lvContainers = findViewById(R.id.lvContainers)
 
-        // Adapter para la lista
         adapter = marco_ContainerAdapter(this, containersList, this)
         lvContainers.adapter = adapter
 
-        // Username que viene del login
         loggedUsername =
             intent.getStringExtra(marco_authenticationActivity.EXTRA_LOGGED_USERNAME)
         txtLoggedUser.text = "Logged user: ${loggedUsername ?: "Unknown"}"
 
-        // Ir a la pantalla de crear contenedor
         btnGoToCreate.setOnClickListener {
             val intent = Intent(this, marco_activityContainer::class.java)
             startActivity(intent)
         }
 
-        // Refrescar lista
         btnRefresh.setOnClickListener {
             refreshData()
         }
-
-        // Cargar datos al entrar
         refreshData()
     }
 
-    // 1) Obtener email del técnico logueado y luego contenedores
     private fun refreshData() {
         progressContainers.visibility = View.VISIBLE
 
-        // GET /technicians para obtener correo del técnico logueado
         marco_AuthApiClient.service.getTechnicians()
             .enqueue(object : Callback<marco_TechniciansResponse> {
                 override fun onResponse(
@@ -158,7 +149,6 @@ class activity_list_container : AppCompatActivity(),
             })
     }
 
-    // Botón ASSIGN cuando el contenedor está LIBRE
     override fun onAssignClicked(container: marco_Container) {
         val email = loggedTechnicianEmail
         if (email.isNullOrEmpty()) {
@@ -222,7 +212,6 @@ class activity_list_container : AppCompatActivity(),
             })
     }
 
-    // Botón RELEASE cuando el contenedor está OCUPADO
     override fun onReleaseClicked(container: marco_Container) {
         val request = marco_ReleaseContainerRequest(id = container.id)
 

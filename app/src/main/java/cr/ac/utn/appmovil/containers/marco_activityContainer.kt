@@ -21,7 +21,6 @@ class marco_activityContainer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // 👇 IMPORTANTE: el layout se llama activity_marco_container.xml
         setContentView(R.layout.activity_marco_container)
 
         edtContainerId = findViewById(R.id.edtContainerId)
@@ -78,14 +77,11 @@ class marco_activityContainer : AppCompatActivity() {
                         return
                     }
 
-                    // Mostrar el message del API
                     Toast.makeText(
                         this@marco_activityContainer,
                         body.message,
                         Toast.LENGTH_LONG
                     ).show()
-
-                    // Volver a la lista
                     finish()
                 }
 

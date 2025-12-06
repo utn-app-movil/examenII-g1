@@ -52,7 +52,6 @@ class marco_authenticationActivity : AppCompatActivity() {
         progressLogin.visibility = View.VISIBLE
         btnLogin.isEnabled = false
 
-        // 1) Primero validamos contra GET /technicians
         marco_AuthApiClient.service.getTechnicians()
             .enqueue(object : Callback<marco_TechniciansResponse> {
                 override fun onResponse(
@@ -75,16 +74,13 @@ class marco_authenticationActivity : AppCompatActivity() {
                         return
                     }
 
-                    // Buscar técnico activo con id y password correctos
                     val technician = list.firstOrNull {
                         it.id == username && it.password == password && it.isActive
                     }
 
                     if (technician == null) {
-                        // Mensaje que pide el enunciado
                         showErrorAndReset(getString(R.string.marco_error_not_in_list))
                     } else {
-                        // Si existe, hacemos el POST /users/auth
                         authenticateUser(username, password)
                     }
                 }
@@ -135,20 +131,17 @@ class marco_authenticationActivity : AppCompatActivity() {
                         return
                     }
 
-                    // Mostrar siempre el message del API
                     Toast.makeText(
                         this@marco_authenticationActivity,
                         body.message,
                         Toast.LENGTH_LONG
                     ).show()
 
-                    // Si el login es correcto
                     if (body.responseCode == "INFO_FOUND") {
                         val intent = Intent(
                             this@marco_authenticationActivity,
                             activity_list_container::class.java
                         )
-                        // OJO: aquí NO van comillas ni nada raro en putExtra
                         intent.putExtra(EXTRA_LOGGED_USERNAME, username)
                         startActivity(intent)
                         finish()

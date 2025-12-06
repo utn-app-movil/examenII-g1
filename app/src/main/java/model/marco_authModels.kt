@@ -1,6 +1,5 @@
 package cr.ac.utn.appmovil.containers
 
-// ======== MODELOS PARA GET /technicians =========
 
 data class marco_Technician(
     val id: String,
@@ -17,7 +16,6 @@ data class marco_TechniciansResponse(
     val message: String
 )
 
-// ======== MODELOS PARA POST /users/auth =========
 
 data class marco_LoginRequest(
     val username: String,
@@ -28,7 +26,6 @@ data class marco_LoginUser(
     val user: String,
     val name: String,
     val lastName: String
-    // en el ejemplo de login no viene email, así que lo dejamos así
 )
 
 data class marco_LoginResponse(
