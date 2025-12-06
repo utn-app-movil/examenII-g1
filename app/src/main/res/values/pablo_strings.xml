@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pablo_lbLogin">Login</string>
+    <string name="pablo_lbUsername">Username</string>
+    <string name="pablo_lbPassword">Password</string>
+    <string name="pablo_btnAuth">Authenticate</string>
+</resources>
