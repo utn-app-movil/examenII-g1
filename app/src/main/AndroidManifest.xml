@@ -12,7 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Restapi">
         <activity
-            android:name="cr.ac.utn.appmovil.containers.MainActivity"
+            android:name=".pau_view.pau_CreateContainerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pau_view.pau_ContainerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pau_LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

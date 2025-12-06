@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pau_app_name">ContainersApp</string>
+
+    <string name="pau_pref_name">pau_AppPrefs</string>
+    <string name="pau_key_logged_user_email">pau_loggedUserEmail</string>
+
+    <string name="pau_button_ok">OK</string>
+    <string name="pau_button_cancel">Cancelar</string>
+    <string name="pau_button_create">Create</string>
+    <string name="pau_error_title">Error</string>
+    <string name="pau_success_title">Éxito</string>
+    <string name="pau_error_network_title">Error de red</string>
+    <string name="pau_error_network_message">No se pudo conectar</string>
+    <string name="pau_error_connection_message">Error de conexión</string>
+
+    <string name="pau_login_title">Log in</string>
+    <string name="pau_login_hint_email">Email</string>
+    <string name="pau_login_hint_password">Password</string>
+    <string name="pau_login_button">Log in</string>
+    <string name="pau_login_validation_complete_fields">Complete todos los campos</string>
+    <string name="pau_login_error_credentials_incorrect">Credenciales incorrectas</string>
+
+    <string name="pau_container_list_title">Container List</string>
+    <string name="pau_container_list_button_refresh">Refresh</string>
+    <string name="pau_container_item_prefix">CONTAINER #</string>
+    <string name="pau_container_status_free">LIBRE</string>
+    <string name="pau_container_status_assigned_prefix">Asignado a: </string>
+    <string name="pau_container_button_assign">pau_Assign</string>
+    <string name="pau_container_button_release">pau_Release</string>
+
+    <string name="pau_create_container_title">Create Container</string>
+    <string name="pau_create_container_hint_code">Code</string>
+    <string name="pau_create_container_hint_description">Description</string>
+    <string name="pau_create_container_validation_code_required">El código es obligatorio</string>
+    <string name="pau_create_container_success_message">Contenedor creado correctamente</string>
+</resources>
