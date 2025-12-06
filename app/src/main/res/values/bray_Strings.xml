@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name_bray">Containers App Movil</string>
+
+    <string name="login_title">Login</string>
+    <string name="hint_email">User</string>
+    <string name="hint_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="error_empty_fields">Please enter your email and password.</string>
+    <string name="message_authenticating">Signing in...</string>
+    <string name="login_success">Login succesfull. Token: %s</string>
+    <string name="login_failed_code">Login failed. Código: %d</string>
+    <string name="error_connection">Connection Error: %s</string>
+    <string name="error_loading_containers">Failed to load containers</string>
+    <string name="error_connection_message">Connection Error: %s</string>
+    <string name="error_user_not_identified">User not identified (email)</string>
+    <string name="container_assigned_success">Container assigned</string>
+    <string name="error_assigning_container">Failed to assign container</string>
+    <string name="error_general_message">Error: %s</string>
+    <string name="container_released_success">Container released</string>
+    <string name="error_releasing_container">Failed to release container</string>
+    <string name="error_complete_all_fields">Please complete all fields</string>
+    <string name="container_created_success">Container created: %s</string>
+    <string name="error_http_code_message">Error: %d - %s</string>
+    <string name="error_connection_general">Connection Error: %s</string>
+</resources>

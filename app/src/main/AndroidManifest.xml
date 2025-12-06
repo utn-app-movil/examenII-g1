@@ -20,6 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".bray_LoginActivity" />
+        <activity android:name=".bray_ContainerCreatorActivity" />
+        <activity android:name=".bray_ContainerListActivity" />
     </application>
 
 </manifest>
