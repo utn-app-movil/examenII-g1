@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/containerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/containerDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/technicianEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/assignButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asignar" />
+
+    <Button
+        android:id="@+id/releaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liberar" />
+
+</LinearLayout>
