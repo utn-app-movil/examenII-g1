@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Auth activity -->
+    <string name="authUser">Usuario</string>
+    <string name="authPass">Contraseña</string>
+    <string name="authLog">Autenticación</string>
+    <string name="authBtn">Autenticar</string>
+
+    <!-- Container list -->
+    <string name="btnAddContainer">Agregar contenedor +</string>
+    <string name="btnRefresh">Refrescar</string>
+    <string name="btnAssign">Asignar</string>
+    <string name="btnRelease">Liberar</string>
+
+    <!-- Container register -->
+    <string name="txtID">ID</string>
+    <string name="txtName">Producto</string>
+    <string name="btnRegister">Registrar</string>
+
+
+</resources>
