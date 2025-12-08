@@ -11,6 +11,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Restapi">
+
+        <activity
+            android:name=".mjose_activities.mjose_authenticationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".mjose_activities.mjose_roomListActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".mjose_activities.mjose_roomActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".mjose_activities.mjose_mainActivity"
+            android:exported="false" />
+
         <activity
             android:name=".sam_ContainerListActivity"
             android:exported="false" />
