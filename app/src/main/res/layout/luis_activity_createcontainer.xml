@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvCreateContainerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luis_create_container_title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/edtContainerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/luis_container_id"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/edtContainerProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/luis_container_product"
+        android:inputType="text"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnCreateContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/luis_create_container_button"/>
+
+</LinearLayout>

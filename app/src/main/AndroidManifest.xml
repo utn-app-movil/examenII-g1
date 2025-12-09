@@ -29,6 +29,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="cr.ac.utn.appmovil.containers.luis_mainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="cr.ac.utn.appmovil.containers.luis_authenticationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="cr.ac.utn.appmovil.containers.luis_containersOptionsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="cr.ac.utn.appmovil.containers.luis_createContainerActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="cr.ac.utn.appmovil.containers.luis_listContainersActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
