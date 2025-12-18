@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import util.util
 
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -155,7 +156,7 @@ class MainActivity : AppCompatActivity() {
         val btn23_main = findViewById<Button>(R.id.btn23_main)
         btn23_main.setOnClickListener(View.OnClickListener{ view->
             //Kamila
-            util.openActivity(this, MainActivity::class.java)
+            util.openActivity(this, kam_LoginActivity::class.java)
         })
     }
 }

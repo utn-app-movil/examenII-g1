@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Login Screen -->
+    <string name="kam_app_title">Container Management</string>
+    <string name="kam_username_hint">Username (e.g., TEC-03)</string>
+    <string name="kam_password_hint">Password</string>
+    <string name="kam_login_button">Login</string>
+    <string name="kam_login_error">Login failed. Please check your credentials.</string>
+    <string name="kam_login_success">Login successful!</string>
+
+    <!-- Create Container Screen -->
+    <string name="kam_create_container_title">Create New Container</string>
+    <string name="kam_container_id_hint">Container ID</string>
+    <string name="kam_product_hint">Product (e.g., Metal, Food)</string>
+    <string name="kam_create_button">Create Container</string>
+    <string name="kam_create_success">Container created successfully!</string>
+    <string name="kam_create_error">Error creating container</string>
+    <string name="kam_fill_all_fields">Please fill all fields</string>
+
+    <!-- Container List Screen -->
+    <string name="kam_container_list_title">Container List</string>
+    <string name="kam_refresh_button">Refresh</string>
+    <string name="kam_create_new_button">Create</string>
+    <string name="kam_status_occupied">OCCUPIED</string>
+    <string name="kam_status_free">FREE</string>
+    <string name="kam_assign_button">Assign</string>
+    <string name="kam_release_button">Release</string>
+    <string name="kam_assign_success">Container assigned successfully!</string>
+    <string name="kam_release_success">Container released successfully!</string>
+    <string name="kam_assign_error">Error assigning container</string>
+    <string name="kam_release_error">Error releasing container</string>
+    <string name="kam_load_error">Error loading containers</string>
+
+    <!-- Dialog Strings -->
+    <string name="kam_confirm_assign">Do you want to assign this container?</string>
+    <string name="kam_confirm_release">Do you want to release this container?</string>
+    <string name="kam_ok">OK</string>
+    <string name="kam_cancel">Cancel</string>
+
+    <!-- General -->
+    <string name="kam_loading">Loading...</string>
+    <string name="kam_error">Error</string>
+</resources>
