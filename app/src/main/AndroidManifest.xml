@@ -29,6 +29,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="cr.ac.utn.appmovil.containers.BranLoginActivity" />
+        <activity android:name="cr.ac.utn.appmovil.containers.bran_MainActivity" />
+        <activity android:name="cr.ac.utn.appmovil.containers.bran_CreateContainerActivity" />
+        <activity android:name="cr.ac.utn.appmovil.containers.bran_ViewContainersActivity" />
     </application>
 
 </manifest>

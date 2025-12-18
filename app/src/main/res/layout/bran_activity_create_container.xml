@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".bran_CreateContainerActivity">
+
+    <EditText
+        android:id="@+id/editTextContenedorId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID del Contenedor"/>
+
+    <EditText
+        android:id="@+id/editTextProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Producto"/>
+
+    <Button
+        android:id="@+id/buttonCrear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Crear"/>
+
+</LinearLayout>
