@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import cr.ac.utn.appmovil.containers.kevinv.kevinv_authenticationActivity
 import util.util
 
 class MainActivity : AppCompatActivity() {
@@ -53,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         val btn6_main = findViewById<Button>(R.id.btn6_main)
         btn6_main.setOnClickListener(View.OnClickListener{ view->
             //KevinV
-            util.openActivity(this, MainActivity::class.java)
+            util.openActivity(this, kevinv_authenticationActivity::class.java)
         })
 
         val btn7_main = findViewById<Button>(R.id.btn7_main)
